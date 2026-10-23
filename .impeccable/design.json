@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-23T05:58:07-07:00",
+  "title": "Design System: Penny",
+  "extensions": {
+    "colorMeta": {
+      "aurora-violet": { "role": "primary", "displayName": "Aurora Violet", "canonical": "#7547FF", "tonalRamp": ["oklch(15% 0.25 290)", "oklch(27% 0.25 290)", "oklch(39% 0.25 290)", "oklch(51% 0.25 290)", "oklch(63% 0.25 290)", "oklch(75% 0.25 290)", "oklch(87% 0.25 290)", "oklch(95% 0.25 290)"] },
+      "aurora-magenta": { "role": "secondary", "displayName": "Aurora Magenta", "canonical": "#E54BBE", "tonalRamp": ["oklch(15% 0.21 337)", "oklch(27% 0.21 337)", "oklch(39% 0.21 337)", "oklch(51% 0.21 337)", "oklch(63% 0.21 337)", "oklch(75% 0.21 337)", "oklch(87% 0.21 337)", "oklch(95% 0.21 337)"] },
+      "aurora-cyan": { "role": "tertiary", "displayName": "Aurora Cyan", "canonical": "#34D9EA", "tonalRamp": ["oklch(15% 0.13 202)", "oklch(27% 0.13 202)", "oklch(39% 0.13 202)", "oklch(51% 0.13 202)", "oklch(63% 0.13 202)", "oklch(75% 0.13 202)", "oklch(87% 0.13 202)", "oklch(95% 0.13 202)"] },
+      "money-green-light": { "role": "tertiary", "displayName": "Money Green Light", "canonical": "#0A8F68", "tonalRamp": ["oklch(15% 0.12 163)", "oklch(27% 0.12 163)", "oklch(39% 0.12 163)", "oklch(51% 0.12 163)", "oklch(63% 0.12 163)", "oklch(75% 0.12 163)", "oklch(87% 0.12 163)", "oklch(95% 0.12 163)"] },
+      "money-green-dark": { "role": "tertiary", "displayName": "Money Green Dark", "canonical": "#70E3BC", "tonalRamp": ["oklch(15% 0.11 163)", "oklch(27% 0.11 163)", "oklch(39% 0.11 163)", "oklch(51% 0.11 163)", "oklch(63% 0.11 163)", "oklch(75% 0.11 163)", "oklch(87% 0.11 163)", "oklch(95% 0.11 163)"] },
+      "light-primary": { "role": "primary", "displayName": "Light Ledger Violet", "canonical": "#6540D7", "tonalRamp": ["oklch(15% 0.19 293)", "oklch(27% 0.19 293)", "oklch(39% 0.19 293)", "oklch(51% 0.19 293)", "oklch(63% 0.19 293)", "oklch(75% 0.19 293)", "oklch(87% 0.19 293)", "oklch(95% 0.19 293)"] },
+      "light-primary-container": { "role": "primary", "displayName": "Light Violet Container", "canonical": "#EDE6FF", "tonalRamp": ["oklch(15% 0.04 293)", "oklch(27% 0.04 293)", "oklch(39% 0.04 293)", "oklch(51% 0.04 293)", "oklch(63% 0.04 293)", "oklch(75% 0.04 293)", "oklch(87% 0.04 293)", "oklch(95% 0.04 293)"] },
+      "light-secondary": { "role": "secondary", "displayName": "Light Ledger Magenta", "canonical": "#9A347C", "tonalRamp": ["oklch(15% 0.15 337)", "oklch(27% 0.15 337)", "oklch(39% 0.15 337)", "oklch(51% 0.15 337)", "oklch(63% 0.15 337)", "oklch(75% 0.15 337)", "oklch(87% 0.15 337)", "oklch(95% 0.15 337)"] },
+      "light-secondary-container": { "role": "secondary", "displayName": "Light Magenta Container", "canonical": "#FFD8EF", "tonalRamp": ["oklch(15% 0.05 337)", "oklch(27% 0.05 337)", "oklch(39% 0.05 337)", "oklch(51% 0.05 337)", "oklch(63% 0.05 337)", "oklch(75% 0.05 337)", "oklch(87% 0.05 337)", "oklch(95% 0.05 337)"] },
+      "light-tertiary": { "role": "tertiary", "displayName": "Light Ledger Cyan", "canonical": "#006875", "tonalRamp": ["oklch(15% 0.09 205)", "oklch(27% 0.09 205)", "oklch(39% 0.09 205)", "oklch(51% 0.09 205)", "oklch(63% 0.09 205)", "oklch(75% 0.09 205)", "oklch(87% 0.09 205)", "oklch(95% 0.09 205)"] },
+      "light-tertiary-container": { "role": "tertiary", "displayName": "Light Cyan Container", "canonical": "#9CF0FF", "tonalRamp": ["oklch(15% 0.07 205)", "oklch(27% 0.07 205)", "oklch(39% 0.07 205)", "oklch(51% 0.07 205)", "oklch(63% 0.07 205)", "oklch(75% 0.07 205)", "oklch(87% 0.07 205)", "oklch(95% 0.07 205)"] },
+      "light-background": { "role": "neutral", "displayName": "Cool Paper", "canonical": "#F8F6FF", "tonalRamp": ["oklch(15% 0.01 293)", "oklch(27% 0.01 293)", "oklch(39% 0.01 293)", "oklch(51% 0.01 293)", "oklch(63% 0.01 293)", "oklch(75% 0.01 293)", "oklch(87% 0.01 293)", "oklch(95% 0.01 293)"] },
+      "light-surface": { "role": "neutral", "displayName": "Light Glass Surface", "canonical": "#FCF9FF", "tonalRamp": ["oklch(15% 0.008 315)", "oklch(27% 0.008 315)", "oklch(39% 0.008 315)", "oklch(51% 0.008 315)", "oklch(63% 0.008 315)", "oklch(75% 0.008 315)", "oklch(87% 0.008 315)", "oklch(95% 0.008 315)"] },
+      "light-surface-muted": { "role": "neutral", "displayName": "Light Muted Surface", "canonical": "#EAE5F0", "tonalRamp": ["oklch(15% 0.015 310)", "oklch(27% 0.015 310)", "oklch(39% 0.015 310)", "oklch(51% 0.015 310)", "oklch(63% 0.015 310)", "oklch(75% 0.015 310)", "oklch(87% 0.015 310)", "oklch(95% 0.015 310)"] },
+      "light-ink": { "role": "neutral", "displayName": "Light Primary Ink", "canonical": "#1C1822", "tonalRamp": ["oklch(15% 0.012 310)", "oklch(27% 0.012 310)", "oklch(39% 0.012 310)", "oklch(51% 0.012 310)", "oklch(63% 0.012 310)", "oklch(75% 0.012 310)", "oklch(87% 0.012 310)", "oklch(95% 0.012 310)"] },
+      "light-ink-muted": { "role": "neutral", "displayName": "Light Muted Ink", "canonical": "#645E6C", "tonalRamp": ["oklch(15% 0.02 310)", "oklch(27% 0.02 310)", "oklch(39% 0.02 310)", "oklch(51% 0.02 310)", "oklch(63% 0.02 310)", "oklch(75% 0.02 310)", "oklch(87% 0.02 310)", "oklch(95% 0.02 310)"] },
+      "light-divider": { "role": "neutral", "displayName": "Light Soft Divider", "canonical": "#D0C8D7", "tonalRamp": ["oklch(15% 0.02 310)", "oklch(27% 0.02 310)", "oklch(39% 0.02 310)", "oklch(51% 0.02 310)", "oklch(63% 0.02 310)", "oklch(75% 0.02 310)", "oklch(87% 0.02 310)", "oklch(95% 0.02 310)"] },
+      "light-error": { "role": "primary", "displayName": "Light Error Red", "canonical": "#BA1A1A", "tonalRamp": ["oklch(15% 0.18 28)", "oklch(27% 0.18 28)", "oklch(39% 0.18 28)", "oklch(51% 0.18 28)", "oklch(63% 0.18 28)", "oklch(75% 0.18 28)", "oklch(87% 0.18 28)", "oklch(95% 0.18 28)"] },
+      "dark-primary": { "role": "primary", "displayName": "Dark Ledger Violet", "canonical": "#CDBDFF", "tonalRamp": ["oklch(15% 0.09 293)", "oklch(27% 0.09 293)", "oklch(39% 0.09 293)", "oklch(51% 0.09 293)", "oklch(63% 0.09 293)", "oklch(75% 0.09 293)", "oklch(87% 0.09 293)", "oklch(95% 0.09 293)"] },
+      "dark-primary-container": { "role": "primary", "displayName": "Dark Violet Container", "canonical": "#4D28A5", "tonalRamp": ["oklch(15% 0.16 293)", "oklch(27% 0.16 293)", "oklch(39% 0.16 293)", "oklch(51% 0.16 293)", "oklch(63% 0.16 293)", "oklch(75% 0.16 293)", "oklch(87% 0.16 293)", "oklch(95% 0.16 293)"] },
+      "dark-secondary": { "role": "secondary", "displayName": "Dark Ledger Magenta", "canonical": "#FFACE0", "tonalRamp": ["oklch(15% 0.09 337)", "oklch(27% 0.09 337)", "oklch(39% 0.09 337)", "oklch(51% 0.09 337)", "oklch(63% 0.09 337)", "oklch(75% 0.09 337)", "oklch(87% 0.09 337)", "oklch(95% 0.09 337)"] },
+      "dark-secondary-container": { "role": "secondary", "displayName": "Dark Magenta Container", "canonical": "#7B2864", "tonalRamp": ["oklch(15% 0.13 337)", "oklch(27% 0.13 337)", "oklch(39% 0.13 337)", "oklch(51% 0.13 337)", "oklch(63% 0.13 337)", "oklch(75% 0.13 337)", "oklch(87% 0.13 337)", "oklch(95% 0.13 337)"] },
+      "dark-tertiary": { "role": "tertiary", "displayName": "Dark Ledger Cyan", "canonical": "#4ED8EA", "tonalRamp": ["oklch(15% 0.12 202)", "oklch(27% 0.12 202)", "oklch(39% 0.12 202)", "oklch(51% 0.12 202)", "oklch(63% 0.12 202)", "oklch(75% 0.12 202)", "oklch(87% 0.12 202)", "oklch(95% 0.12 202)"] },
+      "dark-tertiary-container": { "role": "tertiary", "displayName": "Dark Cyan Container", "canonical": "#004E59", "tonalRamp": ["oklch(15% 0.08 202)", "oklch(27% 0.08 202)", "oklch(39% 0.08 202)", "oklch(51% 0.08 202)", "oklch(63% 0.08 202)", "oklch(75% 0.08 202)", "oklch(87% 0.08 202)", "oklch(95% 0.08 202)"] },
+      "dark-background": { "role": "neutral", "displayName": "Violet Black", "canonical": "#0D0914", "tonalRamp": ["oklch(15% 0.02 310)", "oklch(27% 0.02 310)", "oklch(39% 0.02 310)", "oklch(51% 0.02 310)", "oklch(63% 0.02 310)", "oklch(75% 0.02 310)", "oklch(87% 0.02 310)", "oklch(95% 0.02 310)"] },
+      "dark-surface": { "role": "neutral", "displayName": "Dark Glass Surface", "canonical": "#14101C", "tonalRamp": ["oklch(15% 0.02 310)", "oklch(27% 0.02 310)", "oklch(39% 0.02 310)", "oklch(51% 0.02 310)", "oklch(63% 0.02 310)", "oklch(75% 0.02 310)", "oklch(87% 0.02 310)", "oklch(95% 0.02 310)"] },
+      "dark-surface-muted": { "role": "neutral", "displayName": "Dark Muted Surface", "canonical": "#332D3B", "tonalRamp": ["oklch(15% 0.02 310)", "oklch(27% 0.02 310)", "oklch(39% 0.02 310)", "oklch(51% 0.02 310)", "oklch(63% 0.02 310)", "oklch(75% 0.02 310)", "oklch(87% 0.02 310)", "oklch(95% 0.02 310)"] },
+      "dark-ink": { "role": "neutral", "displayName": "Dark Primary Ink", "canonical": "#EAE2EF", "tonalRamp": ["oklch(15% 0.02 310)", "oklch(27% 0.02 310)", "oklch(39% 0.02 310)", "oklch(51% 0.02 310)", "oklch(63% 0.02 310)", "oklch(75% 0.02 310)", "oklch(87% 0.02 310)", "oklch(95% 0.02 310)"] },
+      "dark-ink-muted": { "role": "neutral", "displayName": "Dark Muted Ink", "canonical": "#CEC5D2", "tonalRamp": ["oklch(15% 0.02 310)", "oklch(27% 0.02 310)", "oklch(39% 0.02 310)", "oklch(51% 0.02 310)", "oklch(63% 0.02 310)", "oklch(75% 0.02 310)", "oklch(87% 0.02 310)", "oklch(95% 0.02 310)"] },
+      "dark-divider": { "role": "neutral", "displayName": "Dark Soft Divider", "canonical": "#49414F", "tonalRamp": ["oklch(15% 0.02 310)", "oklch(27% 0.02 310)", "oklch(39% 0.02 310)", "oklch(51% 0.02 310)", "oklch(63% 0.02 310)", "oklch(75% 0.02 310)", "oklch(87% 0.02 310)", "oklch(95% 0.02 310)"] },
+      "dark-error": { "role": "primary", "displayName": "Dark Error Red", "canonical": "#FFB4AB", "tonalRamp": ["oklch(15% 0.08 28)", "oklch(27% 0.08 28)", "oklch(39% 0.08 28)", "oklch(51% 0.08 28)", "oklch(63% 0.08 28)", "oklch(75% 0.08 28)", "oklch(87% 0.08 28)", "oklch(95% 0.08 28)"] }
+    },
+    "typographyMeta": {
+      "display-large": { "displayName": "Display Large", "purpose": "Exceptional numerical emphasis." },
+      "display-medium": { "displayName": "Display Medium", "purpose": "Balance, onboarding, and sheet amounts." },
+      "headline-large": { "displayName": "Headline Large", "purpose": "Screen and product titles." },
+      "headline-medium": { "displayName": "Headline Medium", "purpose": "Detail-screen titles." },
+      "title-large": { "displayName": "Title Large", "purpose": "Section headings and supporting totals." },
+      "title-medium": { "displayName": "Title Medium", "purpose": "Row, settings, and component titles." },
+      "body-large": { "displayName": "Body Large", "purpose": "Primary descriptions and explanatory copy." },
+      "body-medium": { "displayName": "Body Medium", "purpose": "Standard supporting content." },
+      "body-small": { "displayName": "Body Small", "purpose": "Metadata and helper copy." },
+      "label-large": { "displayName": "Label Large", "purpose": "Prominent controls and balance labels." },
+      "label-medium": { "displayName": "Label Medium", "purpose": "Compact controls and metadata labels." },
+      "label-small": { "displayName": "Label Small", "purpose": "Dense transaction statuses." }
+    },
+    "shadows": [
+      { "name": "brand-orb", "value": "0 8px 18px rgba(117,71,255,0.35)", "purpose": "Colored lift around the circular brand mark." },
+      { "name": "balance-aura", "value": "0 12px 24px rgba(117,71,255,0.30)", "purpose": "Ambient lift reserved for the signature balance lobe." },
+      { "name": "floating-navigation", "value": "0 10px 20px rgba(13,9,20,0.20)", "purpose": "Separates compact navigation from scrolling content." },
+      { "name": "snackbar-lift", "value": "0 11px 22px rgba(13,9,20,0.24)", "purpose": "Raises transient confirmation above the app plane." }
+    ],
+    "motion": [
+      { "name": "balance-lobe-spring", "value": "spring(dampingRatio=0.78, stiffness=220)", "purpose": "Subtle lobe scale response when the focused balance changes." },
+      { "name": "traveling-highlight-spring", "value": "spring(dampingRatio=0.78, stiffness=240)", "purpose": "Moves the selected balance segment indicator." },
+      { "name": "screen-fade-slide", "value": "fade + horizontal slide (10% in, 7% out)", "purpose": "Changes primary navigation destinations without disrupting orientation." },
+      { "name": "settings-shared-axis", "value": "fade + directional horizontal slide (33% in, 25% out)", "purpose": "Communicates movement into and out of settings detail pages." }
+    ],
+    "breakpoints": [
+      { "name": "compact-phone", "value": "implemented compact width only" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Full-width decisive action for onboarding and expense saving.",
+      "html": "<button class=\"ds-btn-primary\">Save expense</button>",
+      "css": ".ds-btn-primary{width:100%;min-height:54px;border:0;border-radius:18px;padding:0 24px;background:#6540D7;color:#fff;font:600 14px/20px sans-serif;transition:filter .18s ease,transform .18s ease}.ds-btn-primary:hover{filter:brightness(1.08)}.ds-btn-primary:active{transform:scale(.985)}.ds-btn-primary:focus-visible{outline:3px solid #34D9EA;outline-offset:3px}.ds-btn-primary:disabled{opacity:.38}"
+    },
+    {
+      "name": "Glass Panel",
+      "kind": "card",
+      "refersTo": "glass-panel-light",
+      "description": "Default translucent grouping surface for related ledger content.",
+      "html": "<section class=\"ds-glass-panel\"><strong>Today</strong><p>Captured movements stay grouped and readable.</p></section>",
+      "css": ".ds-glass-panel{border-radius:24px;padding:18px;background:rgba(252,249,255,.82);color:#1C1822;box-shadow:0 1px 4px rgba(101,64,215,.10);font-family:sans-serif}.ds-glass-panel strong{font-size:16px;line-height:22px}.ds-glass-panel p{margin:8px 0 0;color:#645E6C;font-size:14px;line-height:20px}.ds-glass-panel:hover{background:rgba(252,249,255,.9)}.ds-glass-panel:focus-within{outline:3px solid rgba(52,217,234,.65);outline-offset:2px}"
+    },
+    {
+      "name": "Liquid Balance Lobe",
+      "kind": "custom",
+      "refersTo": "balance-lobe",
+      "description": "Signature home summary with live-SMS status, bounded amount auto-sizing, spring focus, and a traveling three-segment highlight.",
+      "html": "<section class=\"ds-balance-lobe\"><div class=\"ds-balance-meta\"><span>TODAY'S FLOW</span><b>SMS LIVE</b></div><span class=\"ds-balance-label\">Spent today</span><strong>₹12,50,000</strong><div class=\"ds-balance-selector\"><button class=\"ds-balance-selected\">Spent<br><b>₹12,50,000</b></button><button>In<br><b>₹5,000</b></button><button>Out<br><b>₹12,50,000</b></button></div></section>",
+      "css": ".ds-balance-lobe{height:252px;padding:24px;border-radius:38px 24px 42px 24px;background:radial-gradient(circle at 93% 6%,rgba(255,255,255,.12),transparent 34%),radial-gradient(circle at 18% 102%,rgba(52,217,234,.18),transparent 30%),linear-gradient(135deg,#4221B8,#6534C7,#A42D7E);color:#fff;box-shadow:0 12px 24px rgba(117,71,255,.30);font-family:sans-serif;display:flex;flex-direction:column}.ds-balance-meta{display:flex;align-items:center;justify-content:space-between;color:rgba(255,255,255,.82);font:500 11px/14px sans-serif}.ds-balance-meta b{padding:5px 10px;border-radius:999px;background:rgba(255,255,255,.14);color:#fff;font:500 11px/14px sans-serif}.ds-balance-label{margin-top:8px;font-size:14px;font-weight:600}.ds-balance-lobe>strong{height:58px;overflow:hidden;white-space:nowrap;font-size:clamp(20px,12vw,48px);line-height:58px;letter-spacing:-.8px}.ds-balance-selector{margin-top:auto;height:78px;padding:5px;border-radius:20px;background:rgba(0,0,0,.14);display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0}.ds-balance-selector button{min-width:0;overflow:hidden;border:0;border-radius:16px;background:transparent;color:#fff;font:500 12px/16px sans-serif}.ds-balance-selector button b{display:block;overflow:hidden;white-space:nowrap;font-size:clamp(10px,4.6vw,20px);line-height:22px}.ds-balance-selector button:hover{background:rgba(255,255,255,.10)}.ds-balance-selector button:focus-visible{outline:3px solid #34D9EA;outline-offset:-3px}.ds-balance-selector button:active{transform:scale(.98)}.ds-balance-selector .ds-balance-selected{background:rgba(255,255,255,.18)}"
+    },
+    {
+      "name": "Outlined Expense Field",
+      "kind": "input",
+      "description": "Material-style single-line field for the human title a bank alert cannot provide.",
+      "html": "<label class=\"ds-field\"><span>What was this for?</span><input placeholder=\"Food, petrol, groceries…\"><small>0/60</small></label>",
+      "css": ".ds-field{display:grid;gap:8px;color:#1C1822;font-family:sans-serif}.ds-field>span{font-size:16px;line-height:22px;font-weight:600}.ds-field input{min-height:54px;padding:0 16px;border:1px solid #837B8B;border-radius:16px;background:transparent;color:#1C1822;font:400 16px/24px sans-serif;transition:border-color .18s,box-shadow .18s}.ds-field input:hover{border-color:#6540D7}.ds-field input:focus-visible{outline:0;border-color:#6540D7;box-shadow:0 0 0 2px rgba(101,64,215,.24)}.ds-field small{justify-self:end;color:#645E6C;font-size:12px}"
+    },
+    {
+      "name": "Filter Chip",
+      "kind": "chip",
+      "description": "Compact Material filter for history date ranges.",
+      "html": "<button class=\"ds-filter-chip\" aria-pressed=\"true\">Last 7 days</button>",
+      "css": ".ds-filter-chip{min-height:40px;padding:0 16px;border:0;border-radius:12px;background:#EDE6FF;color:#6540D7;font:600 14px/20px sans-serif;transition:background .18s,transform .18s}.ds-filter-chip:hover{background:#e3d9ff}.ds-filter-chip:active{transform:scale(.97)}.ds-filter-chip:focus-visible{outline:3px solid #34D9EA;outline-offset:2px}"
+    },
+    {
+      "name": "Transaction Row",
+      "kind": "custom",
+      "refersTo": "transaction-icon",
+      "description": "Scan-first money movement row shared inside a glass panel.",
+      "html": "<button class=\"ds-transaction-row\"><span class=\"ds-transaction-icon\">↗</span><span class=\"ds-transaction-copy\"><strong>Add a title</strong><small>Bank ••1234 · 10:42 AM</small></span><span class=\"ds-transaction-value\"><strong>−₹250</strong><small>Pending</small></span></button>",
+      "css": ".ds-transaction-row{width:100%;min-height:74px;padding:14px 0;border:0;background:transparent;color:#1C1822;font-family:sans-serif;display:flex;align-items:center;text-align:left}.ds-transaction-row:hover{background:rgba(237,230,255,.45)}.ds-transaction-row:active{background:rgba(237,230,255,.75)}.ds-transaction-row:focus-visible{outline:3px solid #34D9EA;outline-offset:2px}.ds-transaction-icon{width:46px;height:46px;border-radius:15px;background:#EDE6FF;color:#6540D7;display:grid;place-items:center;font-size:22px}.ds-transaction-copy{min-width:0;flex:1;padding:0 12px;display:grid}.ds-transaction-copy strong,.ds-transaction-value strong{font-size:16px;line-height:22px}.ds-transaction-copy strong,.ds-transaction-value small{color:#6540D7}.ds-transaction-copy small,.ds-transaction-value small{font-size:11px;line-height:14px}.ds-transaction-copy small{color:#645E6C}.ds-transaction-value{display:grid;text-align:right}"
+    },
+    {
+      "name": "Floating Bottom Navigation",
+      "kind": "nav",
+      "description": "Three-destination compact navigation inside a lifted glass capsule.",
+      "html": "<nav class=\"ds-bottom-nav\"><button class=\"ds-nav-active\"><span>●</span>Home</button><button><span>◷</span>History</button><button><span>⚙</span>Settings</button></nav>",
+      "css": ".ds-bottom-nav{padding:6px;border-radius:28px;background:rgba(252,249,255,.92);box-shadow:0 10px 20px rgba(13,9,20,.20);display:grid;grid-template-columns:repeat(3,1fr);font-family:sans-serif}.ds-bottom-nav button{min-height:64px;border:0;border-radius:22px;background:transparent;color:#645E6C;font:500 12px/16px sans-serif;display:grid;place-items:center}.ds-bottom-nav button span{font-size:19px}.ds-bottom-nav button:hover{background:rgba(237,230,255,.5)}.ds-bottom-nav button:active{transform:scale(.97)}.ds-bottom-nav button:focus-visible{outline:3px solid #34D9EA;outline-offset:-2px}.ds-bottom-nav .ds-nav-active{background:#EDE6FF;color:#6540D7}"
+    },
+    {
+      "name": "Theme Choice",
+      "kind": "custom",
+      "refersTo": "theme-choice-selected",
+      "description": "Accessible radio tile for System, Light, or Dark appearance.",
+      "html": "<button class=\"ds-theme-choice\" role=\"radio\" aria-checked=\"true\"><span>◐</span>System</button>",
+      "css": ".ds-theme-choice{min-width:96px;min-height:76px;padding:12px;border:0;border-radius:18px;background:#EDE6FF;color:#6540D7;font:500 12px/16px sans-serif;display:grid;place-items:center;gap:6px;transition:filter .18s,transform .18s}.ds-theme-choice span{font-size:22px}.ds-theme-choice:hover{filter:brightness(.98)}.ds-theme-choice:active{transform:scale(.97)}.ds-theme-choice:focus-visible{outline:3px solid #34D9EA;outline-offset:2px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Liquid Ledger",
+    "overview": "Penny is an Aurora Maximalist native Android finance interface: private money movement is viewed through a single luminous field of violet, magenta, and cyan rather than through a generic stack of equal cards. A cool white or violet-black ground keeps everyday ledger content calm while one dominant liquid balance lobe gives the home screen its unmistakable silhouette.\n\nThe system is expressive at the level of atmosphere, material, and motion, then disciplined at the level of reading and control. Glass surfaces are translucent but legible, type is crisp and Android-native, and semantic states remain clear in light, dark, and system-selected themes. Spring state selection and a traveling highlight make balance exploration feel physical without turning routine financial work into spectacle.",
+    "keyCharacteristics": [
+      "Aurora violet, magenta, and cyan establish identity; semantic Material roles carry the rest of the interface.",
+      "A dominant asymmetric balance lobe anchors the hierarchy.",
+      "Translucent glass panels group related information without creating a wall of equal cards.",
+      "Compact capsules, generous touch targets, and Material behavior keep the experience native.",
+      "Light, dark, and system themes are equal expressions of the same visual world."
+    ],
+    "rules": [
+      { "name": "The Aurora Is Identity Rule", "body": "Use the three-color aurora for branded atmosphere and signature objects, not as a rainbow applied to every component.", "section": "colors" },
+      { "name": "The Money Green Rule", "body": "Green means incoming value; do not use it as a generic success accent when cyan or primary violet can communicate the state.", "section": "colors" },
+      { "name": "The Paired Theme Rule", "body": "Resolve semantic roles through the complete light or dark scheme. Never invert colors mechanically or mix roles from opposing schemes.", "section": "colors" },
+      { "name": "The Amount Leads Rule", "body": "On money-focused surfaces, the monetary value receives the strongest available type role; labels explain it without competing.", "section": "typography" },
+      { "name": "The Scale, Don't Improvise Rule", "body": "Use the defined Material type roles in scalable `sp`; do not introduce one-off text sizes inside screens.", "section": "typography" },
+      { "name": "The Glass Must Read Rule", "body": "Translucency adds atmosphere only after foreground contrast is secure in both themes.", "section": "elevation" },
+      { "name": "The Signature Earns Shadow Rule", "body": "Broad colored shadows belong to the lobe and brand moments; routine panels stay tonally layered.", "section": "elevation" }
+    ],
+    "dos": [
+      "**Do** keep the balance lobe visually dominant on the home screen.",
+      "**Do** use semantic Material color and type roles so light, dark, and system themes remain accessible.",
+      "**Do** group related rows inside one glass panel and preserve at least 48 dp touch targets.",
+      "**Do** use spring motion for direct state selection and restrained fade/slide motion for navigation changes.",
+      "**Do** preserve system Back, window insets, scalable text, radio semantics, and native control behavior."
+    ],
+    "donts": [
+      "**Don't** flatten the home experience into a generic stack of equal finance cards.",
+      "**Don't** scatter aurora gradients, colored shadows, or asymmetric lobes across routine components.",
+      "**Don't** use green for non-financial success or use magenta/cyan as substitutes for error and credit semantics.",
+      "**Don't** trade legibility for translucency, especially in dark mode or over ambient glow fields.",
+      "**Don't** reuse the compact bottom navigation unchanged on an expanded tablet layout."
+    ]
+  }
+}

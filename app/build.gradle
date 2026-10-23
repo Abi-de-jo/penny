@@ -18,11 +18,18 @@ android {
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
     }
 
+    signingConfigs {
+        release {
+            storeFile rootProject.file("penny-release-key.jks")
+            storePassword "PennySecure2026!"
+            keyAlias "penny_key"
+            keyPassword "PennySecure2026!"
+        }
+    }
+
     buildTypes {
         release {
-            // Prototype distribution build: signed locally so it can be opened
-            // directly from Files, Telegram, or another Android app.
-            signingConfig signingConfigs.debug
+            signingConfig signingConfigs.release
             minifyEnabled false
         }
     }

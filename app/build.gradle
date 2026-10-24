@@ -12,10 +12,19 @@ android {
     defaultConfig {
         applicationId 'com.penny.app'
         minSdk 26
-        targetSdk 36
+        targetSdk 35
         versionCode 3
         versionName '0.3.0'
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+    }
+    flavorDimensions = ["distribution"]
+    productFlavors {
+        full {
+            dimension "distribution"
+        }
+        shareable {
+            dimension "distribution"
+        }
     }
 
     signingConfigs {
@@ -24,6 +33,8 @@ android {
             storePassword "PennySecure2026!"
             keyAlias "penny_key"
             keyPassword "PennySecure2026!"
+            v1SigningEnabled true
+            v2SigningEnabled true
         }
     }
 
